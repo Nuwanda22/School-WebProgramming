@@ -1,0 +1,7 @@
+.outer {
+    color: blue;
+}
+
+#important {
+    color: blue !important;
+}

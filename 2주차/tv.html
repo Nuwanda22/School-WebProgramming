@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TV Program</title>
+    <style>
+        .inner {
+            color: red;
+        }
+        #important {
+            color: red !important;
+        }
+
+        p, strong {
+            font-size: 25px;
+        }
+    </style>
+    <link rel="stylesheet" href="tv.css">
+</head>
+<body>
+    <p>외부는 파랑 내부는 빨강 인라인은 노랑</p>
+    <p class="outer inner">외부 vs 내부</p>
+    <p class="inner" style="color: yellow">내부 vs 인라인</p>
+    <p class="outer" style="color: yellow">외부 vs 인라인</p>
+    <p id="important" style="color: yellow !important">!important</p>
+
+    <strong>결론은 인라인 > 외부 > 내부</strong>
+</body>
+</html>
