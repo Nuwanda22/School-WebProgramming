@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Effect</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        img {
+            opacity: 0.2;
+            margin-top: 75px;
+        }
+        
+        img:hover {
+            opacity: 1;
+            -webkit-animation: spin 4s infinite linear;
+            -o-animation: spin 4s infinite linear;
+            -moz-animation: spin 4s infinite linear;
+            animation: spin 4s infinite linear;
+        }
+        
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @-moz-keyframes spin {
+            0% {
+                -moz-transform: rotate(0deg);
+            }
+            100% {
+                -moz-transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="http://www.mountainguides.com/photos/everest-south/c2_2011b.jpg" alt="사진">
+</body>
+
+</html>

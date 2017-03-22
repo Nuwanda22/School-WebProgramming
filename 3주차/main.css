@@ -1,0 +1,59 @@
+    body {
+        text-align: center;
+        width: 900px;
+        text-align: left;
+        min-height: 300px;
+        margin: 0 auto;
+    }
+    
+    header, footer, nav, aside, section {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    nav, section, aside {
+        float: left;
+        height: 200px;
+    }
+
+    nav {
+        width: 100px;
+    }
+
+    section {
+        width: 604px; 
+    }
+
+    aside {
+        width: 100px; 
+    }
+    
+    footer {
+        height: 50px;
+        position: relative;
+        clear: both;
+    }
+
+    article {
+        width: 90%;
+        margin: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    div>p {
+        color: red;
+    }
+
+    div {
+        z-index: 0;
+        position: relative;
+        bottom: 75px;
+    }
