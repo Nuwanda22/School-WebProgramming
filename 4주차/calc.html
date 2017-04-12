@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <script>
+        function buttonOnclick() {
+            var x = document.getElementById("x").value;
+            var y = document.getElementById("y").value;
+            var op = document.getElementById("op").value;
+
+            x = parseInt(x);
+            y = parseInt(y);
+
+            var result = calculate(x, y, op);
+            document.getElementById("result").innerText = x + " " + op + " " + y + " = " + result;
+        }
+
+        function calculate(x, y, op) {
+            var result;
+
+            switch (op) {
+                case '+':
+                    result = x + y;
+                    break;
+                case '-':
+                    result = x - y;
+                    break;
+                case '*':
+                    result = x * y;
+                    break;
+                case '/':
+                    result = x / y;
+                    break;
+                default:
+                    break;
+            }
+
+            return result;
+        }
+    </script>
+</head>
+
+<body>
+    <input type="number" id="x">
+    <select name="op" id="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" id="y">
+    <button onclick="buttonOnclick()">계산하기</button>
+    <p id="result"></p>
+</body>
+
+</html>
