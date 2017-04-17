@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What time is it now?</title>
+    <script>
+        function SetTime() {
+            var now = new Date();
+
+            var date = now.getFullYear() + " " + (now.getMonth() + 1) + " " + now.getDate();
+            var time = now.getHours() + " " + now.getMinutes() + " " + now.getSeconds();
+
+            document.getElementById('date').innerText = date;
+            document.getElementById('time').innerText = time;
+        }
+        window.onload = function () {
+            SetTime();
+            setInterval(SetTime, 1000);   
+        }
+    </script>
+    <style>
+        p {
+            margin: 20px 0;
+            font-size: 100px;
+            text-align: center;
+        }
+        
+        section {
+            margin: 10% 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <p id="date">2017 4 17</p>
+        <p id="time">11 12 31</p>
+    </section>
+</body>
+
+</html>
