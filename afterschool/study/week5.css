@@ -1,0 +1,12 @@
+body{
+    font: 12px gulim, "굴림", sans-serif;
+}
+
+fieldset{
+    border: none 0;
+}
+
+legend{
+    position: absolute;
+    left: -9999px;
+}

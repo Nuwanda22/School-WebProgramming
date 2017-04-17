@@ -1,0 +1,19 @@
+*{
+    margin: 20;
+    padding: 0;
+}
+
+body{
+    font: 12px dotum, "돋움", sans-serif;
+    margin: 20px;
+}
+
+#f_wrap dt{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#txt_wrap{
+    width: 90%;
+    margin-top: 20px;
+}

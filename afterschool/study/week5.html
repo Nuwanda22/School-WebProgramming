@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="ko">
+
+<head>
+	<title>Studying Javascript</title>
+	<meta charset="utf-8" />
+	<meta name="Keywords" content="Javascript" />
+	<link rel="stylesheet" href="./week5.css">
+	<script type="text/javascript" src="./week5.js"></script>
+</head>
+
+<body onload="document.f1.user_name.focus();">
+    <form action="#" method="post" name="f1" onsubmit="return submitCheck(this);" onreset="return resetCheck(this);">
+        <fieldset>
+            <legend>회원가입</legend>
+            <p>
+                <label for="user_name">이름</label>
+                <input type="text" name="user_name" id="user_name"/>
+            </p>
+            <p>
+                <label for="user_tel">연락처</label>
+                <input type="text" name="user_tel" id="user_tel"/>
+            </p>
+            <p>
+                <input type="submit" value="회원가입"/>
+                <input type="reset" value="가입취소"/>
+            </p>
+        </fieldset>
+    </form>
+    <h1>선호하는 음식</h1>
+    <div id="food_1">
+        <h2 id="title">한식</h2>
+        <ol>
+            <li><a href="#">김치</a></li>
+            <li>불고기</li>
+            <li>비빔밥</li>
+        </ol>
+    </div>
+    <div id="food_2">
+        <h2>양식</h2>
+        <ol id="list">
+            <li>돈까스</li>
+            <li id="pizza">피자</li>
+            <li>파스타</li>
+        </ol>
+    </div>
+
+    <button onclick="colorBg();">배경색 바꾸기</button>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#gallery{
+    width: 350px;
+    margin: 30px auto;
+    border: 1px solid #909090;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#gallery h1{
+    text-align: center;
+}
+
+#gallery img{
+    border: 1px solid #666;
+}
+
+#photo{
+    text-align: center;
+}
+
+#gallery ul{
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#photo_list ul li{
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+
+#photo_list{
+    width: 300px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.btn_wrap{
+    text-align: center;
+}
+
+.btn_wrap a{
+    font-weight: bold;
+}

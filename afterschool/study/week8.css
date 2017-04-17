@@ -1,0 +1,44 @@
+#h1{
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+img{
+    border: none;
+    vertical-align: top;
+}
+
+li{
+    list-style: none;
+    float: left;
+    width: 80px;
+}
+
+#banner_wrap{
+    width: 260px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border: 1px solid #a0a0a0;
+}
+
+#banner{
+    width: 5000px;
+}
+
+#frame{
+    width: 232px;
+    height: 54px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+}
