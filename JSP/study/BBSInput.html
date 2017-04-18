@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <title>게시판 글쓰기 - 입력 화면</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h2>글쓰기</h2>
+        <form action="/study/bbs-post" method="POST">
+            이름: <input type="text" name="name"><br>
+            제목: <input type="text" name="title"><br><br>
+            <textarea name="content" cols="50" rows="5"></textarea><br>
+            <input type="submit" value="저장">
+            <input type="reset" value="취소"  >
+        </form>
+    </body>
+</html>

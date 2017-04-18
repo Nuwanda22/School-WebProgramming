@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+
+<body>
+	<h2>텍스트 에디터</h2>
+	<form name="form" method="post" action="writer1.jsp">
+		<table>
+			<tr>
+				<td align="left" bgcolor="#f0f0f0">글쓰기</td>
+				<td>
+					<textarea name="text" cols="80" rows="10"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="1" align="left" bgcolor="#f0f0f0">파일 이름</td>
+				<td>
+					<input type="text" name="filename">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="submit" name="ok" value="완료">
+					<input type="reset" name="reset" value="다시쓰기">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>

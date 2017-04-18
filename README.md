@@ -1,3 +1,3 @@
-# School - Web Programming
+# School Study
 
-학교 웹 프로그래밍
+대덕소프트웨어마이스터고등학교를 다니면서 배우고 작성했던 코드들.
