@@ -6,42 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculator</title>
-    <script>
-        function buttonOnclick() {
-            var x = document.getElementById("x").value;
-            var y = document.getElementById("y").value;
-            var op = document.getElementById("op").value;
-
-            x = parseInt(x);
-            y = parseInt(y);
-
-            var result = calculate(x, y, op);
-            document.getElementById("result").innerText = x + " " + op + " " + y + " = " + result;
-        }
-
-        function calculate(x, y, op) {
-            var result;
-
-            switch (op) {
-                case '+':
-                    result = x + y;
-                    break;
-                case '-':
-                    result = x - y;
-                    break;
-                case '*':
-                    result = x * y;
-                    break;
-                case '/':
-                    result = x / y;
-                    break;
-                default:
-                    break;
-            }
-
-            return result;
-        }
-    </script>
+    <script type="text/javascript" src="calc.js"></script>
 </head>
 
 <body>

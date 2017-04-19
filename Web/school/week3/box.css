@@ -1,0 +1,15 @@
+        h1 {
+            /*Space*/
+            margin: 20px;
+            padding: 10px;
+            border: 5px solid black;
+            width: 200px;
+            height: 200px;
+
+            /*Align*/
+            text-align: center;
+            line-height: 175px;
+            
+            /*Location*/
+            float: left;
+        }

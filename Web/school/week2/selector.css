@@ -1,0 +1,24 @@
+        p {
+            color: red;
+        }
+        * {
+            color: red;
+        }
+        .class {
+            color: red;
+        }
+        #id {
+            color: red;
+        }
+        p[id] {
+            color: red;
+        }
+        p[class="class"] {
+            color: red;
+        }
+        body p {
+            color: red;
+        }
+        body>p {
+            color: red;
+        }
