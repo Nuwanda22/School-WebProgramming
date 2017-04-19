@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Socket", "Socket\Socket.csproj", "{A83014E6-1DB8-4D15-BABB-284760D99ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerSocket", "ServerSocket\ServerSocket.csproj", "{FC4D1500-0F67-45A9-8511-591BD58EDD78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A83014E6-1DB8-4D15-BABB-284760D99ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A83014E6-1DB8-4D15-BABB-284760D99ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A83014E6-1DB8-4D15-BABB-284760D99ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A83014E6-1DB8-4D15-BABB-284760D99ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4D1500-0F67-45A9-8511-591BD58EDD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4D1500-0F67-45A9-8511-591BD58EDD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4D1500-0F67-45A9-8511-591BD58EDD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4D1500-0F67-45A9-8511-591BD58EDD78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

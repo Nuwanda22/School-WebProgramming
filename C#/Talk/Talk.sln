@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talk", "Talk\Talk.csproj", "{15C7A29D-68FB-45E5-8E7D-4F9E2078631A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkServer", "TalkServer\TalkServer.csproj", "{CFD5279F-A5F2-4E74-8FE1-D19F7493E0E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15C7A29D-68FB-45E5-8E7D-4F9E2078631A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C7A29D-68FB-45E5-8E7D-4F9E2078631A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C7A29D-68FB-45E5-8E7D-4F9E2078631A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C7A29D-68FB-45E5-8E7D-4F9E2078631A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD5279F-A5F2-4E74-8FE1-D19F7493E0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD5279F-A5F2-4E74-8FE1-D19F7493E0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD5279F-A5F2-4E74-8FE1-D19F7493E0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD5279F-A5F2-4E74-8FE1-D19F7493E0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
