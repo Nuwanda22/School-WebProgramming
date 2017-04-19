@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "확통", "확통\확통.csproj", "{C4657C0E-CC1D-4542-9567-5ED190F848BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBSK Event", "..\DBSK Event\DBSK Event\DBSK Event.csproj", "{5EA1A95A-4A93-4161-96C5-66949FD1A1F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4657C0E-CC1D-4542-9567-5ED190F848BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4657C0E-CC1D-4542-9567-5ED190F848BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4657C0E-CC1D-4542-9567-5ED190F848BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4657C0E-CC1D-4542-9567-5ED190F848BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA1A95A-4A93-4161-96C5-66949FD1A1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA1A95A-4A93-4161-96C5-66949FD1A1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA1A95A-4A93-4161-96C5-66949FD1A1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA1A95A-4A93-4161-96C5-66949FD1A1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
