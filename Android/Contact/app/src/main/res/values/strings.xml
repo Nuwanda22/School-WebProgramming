@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Contact</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="bar01">Me</string>
+    <string name="bar02">Friends</string>
+
+    <string name="name01">Jeon Seongwoo</string>
+    <string name="addr01">Deajeon</string>
+    <string name="tel01">010-4842-9365</string>
+
+    <string name="name02">Sakura</string>
+    <string name="addr02">Mutsu, Aomori</string>
+    <string name="tel02">010-2883-3735</string>
+
+    <string name="act_name">qwerty</string>
+</resources>

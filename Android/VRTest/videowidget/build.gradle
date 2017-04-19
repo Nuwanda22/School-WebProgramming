@@ -1,0 +1,6 @@
+configurations.create("default")
+artifacts.add("default", file('videowidget.aar'))
+dependencies {
+    compile project(':app')
+    compile project(':videowidget')
+}

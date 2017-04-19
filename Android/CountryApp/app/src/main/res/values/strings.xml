@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CountryApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="countries_array">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Anguilla</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cuba</item>
+    </string-array>
+</resources>
