@@ -1,0 +1,21 @@
+ls -l
+
+r read
+w write
+x exe
+
+-|rwx|rwx|rwx
+  me group User
+
+   cp '/media/carpe-diem/USB DISK/OS/ath10k-dkms_1.1_all.deb' .
+   cp '/media/carpe-diem/USB DISK/OS/dkms_2.2.0.3-1.1ubuntu5_all.deb' .
+   dpkg -i dkms_2.2.0.3-1.1ubuntu5_all.deb 
+   apt-get install -f
+   dpkg -i ath10k-dkms_1.1_all.deb 
+   dpkg -l | grep ath10
+   sync
+   apt-get install -f
+   ifconfig 
+    
+   reboot
+

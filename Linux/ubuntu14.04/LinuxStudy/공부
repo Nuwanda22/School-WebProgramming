@@ -1,0 +1,2 @@
+read()	system call 커널 스페이스 버퍼
+fread()	library     유저 스페이스 버퍼 //일반적인 파일의 경우 이게 더 빠
