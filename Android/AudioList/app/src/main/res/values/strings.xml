@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SW Player</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title">Title</string>
+    <string name="artist">Artist</string>
+    <string name="time">Song time</string>
+</resources>

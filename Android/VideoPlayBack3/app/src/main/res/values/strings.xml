@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Video List</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title1">HAVE A NICE DAY</string>
+    <string name="place1">Akihabara, Tokyo</string>
+
+    <string name="title2">Boys And Girls</string>
+    <string name="place2">한국이지만 서구적인 느낌 가득한 곳</string>
+
+    <string name="title3">Anaconda</string>
+    <string name="place3">어디지</string>
+</resources>
