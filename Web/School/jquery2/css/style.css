@@ -61,3 +61,7 @@ nav ul {
 	background: #eaeaea;
 	color: #333;
 }
+
+li>ul {
+	display: none;
+}
