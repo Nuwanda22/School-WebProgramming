@@ -1,0 +1,125 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	background: #f1f1f1;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+}
+ul, ol, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+header {
+	position: relative;
+	width: 100%;
+}
+.container {
+	margin: 0 auto;
+	padding: 22px 0px;
+	width: 1000px;
+}
+.container:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.container .title {
+	float: left;
+	width: 220px;
+	font-size: 1.125em;
+	font-weight: 600;
+}
+.container .title a {
+	line-height: 40px;
+	text-decoration: none;
+	color: #555;
+}
+nav {
+	float: right;
+	margin-top: 10px;
+	width: 70%;
+	height: 400px;
+	overflow: hidden;
+}
+nav > ul > li {
+	float: left;
+	position: relative;
+	z-index: 8;
+}
+nav > ul > li > a {
+	display: block;
+	width: 150px;
+	height: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: 400;
+	color: #555;
+	background: 20px -20px no-repeat;
+}
+nav > ul > li.on > a {
+	color: #8ac007;
+}
+nav .depth2 {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 19px;
+	padding-top: 20px;
+	width: 100%;
+}
+nav .depth2 > ul {
+	padding: 20px;
+	height: 250px;
+	border-right: 1px solid #eaeaea;
+	box-sizing: border-box;
+}
+nav > ul > li.on > .depth2 > ul {
+	background: #8ac007;
+}
+nav .depth2 > ul > li {
+	padding: 5px 0 0 0;
+	text-align: left;
+}
+nav .depth2 > ul > li > a {
+	text-decoration: none;
+	font-size: 0.875em;
+	color: #555;
+}
+nav > ul > li.on > .depth2 > ul > li > a {
+	color: #fff;
+}
+nav > ul > li.on > .depth2 > ul > li > a:hover,
+nav > ul > li.on > .depth2 > ul > li > a:focus {
+	text-decoration: underline;
+}
+nav .image_area {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 70px;
+	z-index: 6;
+	height: 250px;
+	min-width: 100%;
+	background: #f7f7f7;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+}
+nav .image_area .icons {
+	margin: 0 auto;
+	width: 1000px;
+}
+nav .image_area .icons > p {
+	display: none;
+	margin-left: -30px;
+	padding-top: 20px;
+}
+.focusout {
+	display: inline-block;
+	width: 0;
+	height: 0;
+}
