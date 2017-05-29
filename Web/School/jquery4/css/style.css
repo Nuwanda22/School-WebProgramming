@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 4000px;
+}
+
+.main_bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.main_bg.on {
+    opacity: 1;
+}
+
+#area1 {
+    background-image: url("../images/bg1.jpg");
+}
+
+#area2 {
+    background-image: url("../images/bg2.jpg");
+}
+
+#area3 {
+    background-image: url("../images/bg3.jpg");
+}
+
+#area4 {
+    background-image: url("../images/bg4.jpg");
+}
